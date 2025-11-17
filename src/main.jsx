@@ -7,6 +7,7 @@ import {
 import './index.css';
 import Home from './Components/Home.jsx';
 import ErrorPage from './Components/ErrorPage';
+import ServiceDetails from './Components/ServiceDetails.jsx';
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,11 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element:<Home/>,
+        element: <Home />,
+      },
+      {
+        path: "/service/:id",  // <-- dynamic service route
+        element: <ServiceDetails />,
       },
     ],
   },

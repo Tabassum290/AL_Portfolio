@@ -1,33 +1,33 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Education = () => {
-  // Example educational data
+     useEffect(() => {
+        AOS.init({ duration: 1000, once: true });
+      }, []);
   const educationList = [
     {
-      year: "2021 - 2025",
-      degree: "Bachelor of Science in Computer Science",
-      institution: "University of London",
-      description:
-        "Focused on software development, UI/UX design, and web technologies. Graduated with honors.",
+      year: "2023 - 2027",
+      degree: "Bachelor of Psychology",
+      institution: "Dhaka College Affiliated From Dhaka Univercity",
     },
     {
       year: "2019 - 2021",
       degree: "Higher Secondary Certificate (HSC)",
-      institution: "St. Mary’s College",
-      description:
-        "Major in Science with emphasis on Mathematics and Computer Studies.",
+      institution: "Dhaka City College",
+      group:"Commerce"
     },
     {
       year: "2017 - 2019",
       degree: "Secondary School Certificate (SSC)",
-      institution: "Greenwood High School",
-      description:
-        "Completed secondary education with distinction in science subjects.",
+      institution: "Thakurgaon Sugar Miles High School",
+      group:"Science"
     },
   ];
 
   return (
-    <div id="education" className="w-full mt-20 mb-20 px-4 lg:px-0 max-w-7xl mx-auto">
-      <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-12">
+    <div id="education" className="w-full mt-20 mb-20 px-4 lg:px-0 max-w-7xl mx-auto" data-aos="fade-left">
+      <h2 className="text-3xl sm:text-4xl lg:text-4xl text-purple-600 font-bold text-center mb-12">
         My Education
       </h2>
 
@@ -47,9 +47,9 @@ const Education = () => {
 
             {/* Info */}
             <div className="flex-1">
-              <h3 className="text-xl sm:text-2xl font-semibold">{edu.degree}</h3>
+              <h3 className="text-xl sm:text-2xl font-semibold text-black">{edu.degree}</h3>
               <p className="text-purple-600 font-medium">{edu.institution}</p>
-              <p className="text-gray-600 mt-2">{edu.description}</p>
+              <p className="text-gray-800 font-semibold mt-2">{edu.group}</p>
             </div>
           </div>
         ))}

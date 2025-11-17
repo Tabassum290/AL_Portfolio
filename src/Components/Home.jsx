@@ -16,6 +16,7 @@ const Home = () => {
             <Education/>
          </main>
          <Footer/>
+  
         </div>
     );
 };
