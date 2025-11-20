@@ -3,16 +3,20 @@ import { FaFacebook, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import image from "/src/image/banner.jpg";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const { t } = useTranslation();
+
   useEffect(() => {
-    AOS.init({ duration: 1000, once: true }); // Initialize AOS
+    AOS.init({ duration: 1000, once: true });
   }, []);
 
   return (
     <section id="about" className="w-full about py-16 px-4 lg:px-0">
       <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-        {/* Left side: Image + Icons */}
+
+        {/* Left Side */}
         <div
           className="w-full flex flex-col items-center lg:items-start"
           data-aos="fade-right"
@@ -39,7 +43,7 @@ const About = () => {
               </span>
             </a>
             <a
-              href="https://www.linkedin.com/in/al-imran-bhuiya-a634a0272?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              href="https://www.linkedin.com/in/al-imran-bhuiya-a634a0272"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative"
@@ -59,46 +63,52 @@ const About = () => {
           </div>
         </div>
 
-        {/* Right side: Text Section */}
+        {/* Right Side */}
         <div className="space-y-6" data-aos="fade-left">
-          <h2 className="text-4xl font-bold text-purple-600 mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold text-purple-600 mb-4">
+            {t("about.title")}
+          </h2>
+
+          {/* Who I Am */}
           <div className="space-y-2">
-            <h3 className="text-xl font-semibold">Who I Am</h3>
+            <h3 className="text-xl font-semibold">{t("about.who.title")}</h3>
+
             <ul className="list-disc ml-6 space-y-1">
+              <li>{t("about.who.point1")}</li>
+              <li>{t("about.who.point2")}</li>
+              <li>{t("about.who.point3")}</li>
+              <li>{t("about.who.point4")}</li>
               <li>
-                Psychologist with a strong focus on mental health and behavior
-                support
-              </li>
-              <li>Experienced ABA (Applied Behavior Analysis) Therapist</li>
-              <li>Former Research Assistant with UNESCO Bangladesh</li>
-              <li>Dedicated to providing ethical, evidence-based psychological care</li>
-              <li>
-                <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">
-                  Gmail: alimranbhuiya@gmail.com
+                <a href="mailto:alimranbhuiya@gmail.com">
+                  {t("about.who.email")}
                 </a>
               </li>
             </ul>
           </div>
 
+          {/* What I Do */}
           <div className="space-y-2">
-            <h3 className="text-xl font-semibold">What I Do</h3>
+            <h3 className="text-xl font-semibold">{t("about.what.title")}</h3>
             <ul className="list-disc ml-6 space-y-1">
-              <li>Help individuals manage stress, anxiety, and emotional challenges</li>
-              <li>Support behavioral development through structured ABA techniques</li>
-              <li>Offer personalized therapy plans tailored to each client’s needs</li>
-              <li>Create a safe, confidential, and non-judgmental space for healing</li>
+              <li>{t("about.what.point1")}</li>
+              <li>{t("about.what.point2")}</li>
+              <li>{t("about.what.point3")}</li>
+              <li>{t("about.what.point4")}</li>
+              <li>{t("about.what.point5")}</li>
             </ul>
           </div>
 
+          {/* My Approach */}
           <div className="space-y-2">
-            <h3 className="text-xl font-semibold">My Approach</h3>
+            <h3 className="text-xl font-semibold">{t("about.approach.title")}</h3>
             <ul className="list-disc ml-6 space-y-1">
-              <li>Client-centered, empathetic, and research-informed</li>
-              <li>Combines scientific understanding with practical therapeutic tools</li>
-              <li>Focus on long-term emotional well-being and healthy behavior change</li>
-              <li>Encourages personal growth, resilience, and self-awareness</li>
+              <li>{t("about.approach.point1")}</li>
+              <li>{t("about.approach.point2")}</li>
+              <li>{t("about.approach.point3")}</li>
+              <li>{t("about.approach.point4")}</li>
             </ul>
           </div>
+
         </div>
       </div>
     </section>

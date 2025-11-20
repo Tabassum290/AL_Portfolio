@@ -1,0 +1,287 @@
+{
+  "navbar": {
+    "name": "Al Imran Bhuiya",
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "banner": {
+    "hello": "Hello, I'm",
+    "name": "Md. Al Imran Bhuiya",
+    "description": "I am a psychologist committed to helping people understand their thoughts, emotions, and behavior. With professional experience as an ABA Therapist and former Research Assistant at UNESCO Bangladesh, I provide client-centered, ethical, and research-informed psychological services.",
+    "gmail": "Gmail",
+    "sayHello": "Say Hello!"
+  },
+  "about": {
+    "title": "About Me",
+
+    "who": {
+      "title": "Who I Am",
+      "point1": "Psychologist with a strong focus on mental health and behavior support",
+      "point2": "Experienced ABA (Applied Behavior Analysis) Therapist",
+      "point3": "Former Research Assistant with UNESCO Bangladesh",
+      "point4": "Dedicated to providing ethical, evidence-based psychological care",
+      "email": "Gmail: alimranbhuiya@gmail.com"
+    },
+
+    "what": {
+      "title": "What I Do",
+      "point1": "I provide Psychological First Aid Services",
+      "point2": "Help individuals manage stress, anxiety, depression and emotional challenges",
+      "point3": "Support behavioral development through structured ABA techniques",
+      "point4": "Offer personalized therapy plans tailored to each client’s needs",
+      "point5": "Create a safe, confidential, and non-judgmental space for healing"
+    },
+
+    "approach": {
+      "title": "My Approach",
+      "point1": "Client-centered, empathetic, and research-informed",
+      "point2": "Combines scientific understanding with practical therapeutic tools",
+      "point3": "Focus on long-term emotional well-being and healthy behavior change",
+      "point4": "Encourages personal growth, resilience, and self-awareness"
+    }
+  },
+  "services": [
+    {
+      "id": "pfa",
+      "title": "Psychological First Aid",
+      "short": "Immediate emotional support during crisis or distress.",
+       "image": "https://i.ibb.co.com/r28CVFLP/firstaid-op-KAITLYN-PANG-AGGIE.png",
+      "details": {
+        "description": "Psychological First Aid (PFA) provides immediate, compassionate support to individuals facing acute stress, trauma, or crisis.",
+        "who": "Anyone experiencing shock, emotional distress, trauma, crisis events, or overwhelming stress.",
+        "methodology": [
+          "Ensuring safety, comfort, and a calm environment.",
+          "Listening without pressuring the person to talk.",
+          "Assessing immediate needs and providing practical assistance.",
+          "Connecting individuals to social support and professional help.",
+          "Offering grounding techniques to manage acute stress."
+        ],
+        "duration": "Usually delivered immediately after a crisis, lasting 20–45 minutes.",
+        "benefits": [
+          "Reduces emotional distress.",
+          "Promotes safety and stability.",
+          "Helps individuals regain coping ability.",
+          "Provides emotional and practical support.",
+          "Encourages connection with support systems."
+        ],
+        "notes": "PFA is not formal therapy. It is early emotional support."
+      }
+    },
+    {
+      "id": "therapy",
+      "title": "Individual Therapy",
+      "short": "Personalized sessions for mental well-being.",
+       "image": "https://i.ibb.co/PzMFMWsy/Individual-Therapy-Adolescents.webp",
+      "details": {
+        "description": "Individual therapy focuses on personal growth, coping strategies, and overcoming anxiety, depression, or stress.",
+        "who": "Adults, adolescents, and teens facing emotional or psychological difficulties.",
+        "methodology": [
+          "One-on-one sessions with a therapist.",
+          "Goal setting and coping strategy development.",
+          "CBT or other therapeutic approaches.",
+          "Tracking progress and giving small tasks."
+        ],
+        "duration": "45-60 minutes, usually 6-12 sessions.",
+        "benefits": [
+          "Improves emotional awareness.",
+          "Reduces anxiety and depression.",
+          "Helps achieve personal goals.",
+          "Builds effective coping strategies."
+        ],
+        "notes": "Confidential sessions, weekly or bi-weekly."
+      }
+    },
+    {
+      "id": "counseling",
+      "title": "Couples Counseling",
+      "short": "Improve communication and relationships.",
+      "image": "https://i.ibb.co.com/PsSqxsh2/Marriage-Counseling.jpg",
+      "details": {
+        "description": "Couples counseling helps partners improve communication and rebuild trust.",
+        "who": "Couples experiencing relationship conflict or communication issues.",
+        "methodology": [
+          "Counseling sessions with both partners.",
+          "Identifying relationship patterns.",
+          "Communication skill training.",
+          "Conflict resolution techniques."
+        ],
+        "duration": "50-60 minutes, usually 6-10 sessions.",
+        "benefits": [
+          "Improves communication.",
+          "Builds trust and emotional bonding.",
+          "Helps resolve conflict.",
+          "Strengthens long-term relationship health."
+        ],
+        "notes": "Both partners must attend sessions regularly."
+      }
+    },
+    {
+      "id": "group",
+      "title": "Group Therapy",
+      "short": "Supportive sessions with peers.",
+       "image": "https://i.ibb.co/bjrFMRTy/5-Benefits-of-Group-Therapy-During-Addiction-Recovery.jpg",
+      "details": {
+        "description": "Group therapy provides a safe environment to share experiences and learn coping skills from peers.",
+        "who": "Individuals needing peer support or social development.",
+        "methodology": [
+          "Small group discussions.",
+          "Sharing experiences.",
+          "Skill-building exercises.",
+          "Feedback among group members."
+        ],
+        "duration": "60-90 minutes weekly for 8-12 weeks.",
+        "benefits": [
+          "Creates a sense of belonging.",
+          "Improves social skills.",
+          "Encourages self-reflection.",
+          "Provides diverse perspectives."
+        ],
+        "notes": "Active participation recommended."
+      }
+    },
+    {
+      "id": "online",
+      "title": "Online Consultation",
+      "short": "Therapy from home.",
+       "image": "https://i.ibb.co/jZyf4Rbh/Key-Visual-1000-x-600-Site.png",
+      "details": {
+        "description": "Online consultation offers therapy through video calls with flexible scheduling.",
+        "who": "Individuals or couples who prefer remote therapy.",
+        "methodology": [
+          "Secure video sessions.",
+          "CBT, counseling, and coaching techniques.",
+          "Flexible scheduling.",
+          "Digital resources and homework."
+        ],
+        "duration": "45-60 minute sessions.",
+        "benefits": [
+          "Flexible and convenient.",
+          "Therapy from any location.",
+          "Confidential environment.",
+          "Good for busy schedules."
+        ],
+        "notes": "Requires stable internet and private space."
+      }
+    },
+    {
+      "id": "play-therapy",
+      "title": "Play Therapy",
+      "short": "Helping children express emotions through play.",
+      "image": "https://i.ibb.co.com/8gN7dMZ4/download.jpg",
+      "details": {
+        "description": "Play therapy helps children express feelings and develop emotional and social skills.",
+        "who": "Children aged 3-12 with emotional or behavioral challenges.",
+        "methodology": [
+          "Guided play activities.",
+          "Art, toys, and role-play.",
+          "Observation by therapist.",
+          "Parent involvement when needed."
+        ],
+        "duration": "30-50 minutes, usually 8-20 sessions.",
+        "benefits": [
+          "Improves emotional expression.",
+          "Helps overcome trauma.",
+          "Improves social skills.",
+          "Builds confidence."
+        ],
+        "notes": "Child-friendly and confidential sessions."
+      }
+    },
+    {
+      "id": "behavioral-therapy",
+      "title": "Behavioral Therapy",
+      "short": "Improving behavior and coping skills in children.",
+      "image": "https://i.ibb.co.com/pjB4bzRX/Behavioral-Therapy-Techniques-1024x647.webp",
+      "details": {
+        "description": "Behavioral therapy helps children reduce negative behaviors and develop positive habits.",
+        "who": "Children with ADHD, anxiety, or behavioral issues.",
+        "methodology": [
+          "Behavior assessment.",
+          "Positive reinforcement.",
+          "Emotional management training.",
+          "Parent guidance."
+        ],
+        "duration": "30-45 minutes, 10-15 sessions.",
+        "benefits": [
+          "Reduces negative behaviors.",
+          "Improves coping skills.",
+          "Improves academic and home life.",
+          "Builds long-term positive habits."
+        ],
+        "notes": "Parent involvement increases effectiveness."
+      }
+    },
+    {
+      "id": "child-counseling",
+      "title": "Child Counseling",
+      "short": "One-on-one sessions for children.",
+      "image": "https://i.ibb.co.com/jPpTXtjw/childcounselling.jpg",
+      "details": {
+        "description": "Child counseling helps with emotional, school, and social issues.",
+        "who": "Children facing emotional or academic challenges.",
+        "methodology": [
+          "Child-focused sessions.",
+          "Discussion, play, and art.",
+          "Goal setting.",
+          "Parent involvement when needed."
+        ],
+        "duration": "30-50 minutes, 8-12 sessions.",
+        "benefits": [
+          "Improves emotional regulation.",
+          "Builds confidence.",
+          "Strengthens coping skills.",
+          "Supports school and family life."
+        ],
+        "notes": "Safe and supportive environment."
+      }
+    },
+    {
+      "id": "iq-test",
+      "title": "IQ Test",
+      "short": "Cognitive and intellectual assessment.",
+      "image": "https://i.ibb.co.com/tTZVH2CR/enlarged.jpg",
+      "details": {
+        "description": "The IQ test measures reasoning, memory, problem-solving, and overall cognitive ability.",
+        "who": "Students, applicants, professionals, or anyone wanting cognitive insight.",
+        "methodology": [
+          "Logic and problem-solving questions.",
+          "Timed assessments.",
+          "Adaptive difficulty questions.",
+          "Score interpretation."
+        ],
+        "duration": "20–45 minutes.",
+        "benefits": [
+          "Identifies strengths and weaknesses.",
+          "Improves analytical skills.",
+          "Helps academic/career planning.",
+          "Increases self-awareness."
+        ],
+        "notes": "Not a measure of worth; results may vary."
+      }
+    }
+  ],
+  
+  "my_education": "My Education",
+  "educationList": [
+    {
+      "year": "2022 - 2026",
+      "degree": "Bachelor of Psychology",
+      "institution": "Dhaka College Affiliated With Dhaka University"
+    },
+    {
+      "year": "2019 - 2021",
+      "degree": "Higher Secondary Certificate (HSC)",
+      "institution": "Dhaka City College"
+    },
+    {
+      "year": "2017 - 2019",
+      "degree": "Secondary School Certificate (SSC)",
+      "institution": "Thakurgaon Sugar Mills High School"
+    }
+  ]
+
+
+}

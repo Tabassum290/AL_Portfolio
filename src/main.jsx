@@ -8,7 +8,7 @@ import './index.css';
 import Home from './Components/Home.jsx';
 import ErrorPage from './Components/ErrorPage';
 import ServiceDetails from './Components/ServiceDetails.jsx';
-
+import "./i18n.js";
 const router = createBrowserRouter([
   {
     path: "/",
