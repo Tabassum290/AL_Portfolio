@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
-import servicesData from "../Publics/en.json"; // i18n automatically switches language
+import servicesData from "../Publics/en.json";
 
 const Service = () => {
   const { t } = useTranslation();

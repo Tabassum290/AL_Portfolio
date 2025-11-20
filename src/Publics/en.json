@@ -4,6 +4,7 @@
     "home": "Home",
     "about": "About",
     "services": "Services",
+    "training":"My Trainings",
     "education": "Education",
     "contact": "Contact"
   },
@@ -263,7 +264,7 @@
       }
     }
   ],
-  
+
   "my_education": "My Education",
   "educationList": [
     {
@@ -281,7 +282,54 @@
       "degree": "Secondary School Certificate (SSC)",
       "institution": "Thakurgaon Sugar Mills High School"
     }
+  ],
+  "training": "My Trainings",
+  "trainings": [
+    {
+      "code": "CBT",
+      "fullForm": "Cognitive Behavioral Therapy",
+      "description": "Cognitive Behavioral Therapy (CBT) is a structured, time-limited psychotherapy that helps individuals identify and change negative thought patterns and behaviors. This training includes understanding cognitive distortions, practical CBT exercises, developing personalized intervention plans, and case studies. Trainees will learn to apply CBT techniques for anxiety, depression, phobias, and stress management in real-life scenarios.",
+      "hours": 40,
+      "image": "https://i.ibb.co.com/Q3nbPf4R/images.png"
+    },
+    {
+      "code": "DBT",
+      "fullForm": "Dialectical Behavior Therapy",
+      "description": "Dialectical Behavior Therapy (DBT) is designed to help individuals manage intense emotions, improve interpersonal effectiveness, and reduce self-destructive behaviors. This training covers mindfulness exercises, distress tolerance skills, emotion regulation strategies, and the DBT therapeutic approach. Participants will practice role-play scenarios and develop individualized treatment strategies.",
+      "hours": 35,
+      "image": "https://i.ibb.co.com/xSk1tyyf/DBT-description-min-1.jpg"
+    },
+    {
+      "code": "ABA",
+      "fullForm": "Applied Behavior Analysis Therapy",
+      "description": "Applied Behavior Analysis (ABA) Therapy focuses on understanding and improving behaviors through observation and reinforcement. This training includes behavior assessment, designing intervention plans, data collection methods, and techniques widely used in autism and developmental disorder therapies. Trainees will learn how to apply ABA principles effectively in clinical and educational settings.",
+      "hours": 30,
+      "image": "https://i.ibb.co.com/Zp2HVh1C/Parent-Training-in-ABA-Empowering-Families-to-Support-Their-Children.jpg"
+    },
+    {
+      "code": "BLA",
+      "fullForm": "Body Language Analysis",
+      "description": "Body Language Analysis training teaches the skills to read, interpret, and respond to non-verbal communication. Topics include facial expressions, gestures, posture, micro-expressions, and proxemics. Participants will learn to detect hidden emotions, improve communication skills, and enhance personal and professional interactions.",
+      "hours": 15,
+      "image": "https://i.ibb.co.com/j9MMwytp/why-do-people-with-autism-struggle-with-body-language-1.jpg"
+    },
+    {
+      "code": "BC",
+      "fullForm": "Basic Counselling",
+      "description": "Basic Counselling training provides the foundation for effective counseling techniques. It includes active listening, empathy development, building rapport, questioning techniques, and ethical considerations. Trainees will learn how to support clients facing personal, academic, and psychological challenges, preparing them for further advanced counseling practices.",
+      "hours": 20,
+      "image": "https://i.ibb.co.com/gQb0Wv1/individual-counseling.jpg"
+    },
+    {
+      "code": "PFA",
+      "fullForm": "Psychological First Aid",
+      "description": "Psychological First Aid (PFA) training equips participants to provide immediate emotional support during crises, disasters, or emergencies. Training covers crisis intervention, psychological assessment, communication skills, and stress management techniques. Participants will learn practical approaches to stabilize, comfort, and guide affected individuals.",
+      "hours": 12,
+      "image": "https://i.ibb.co.com/8DbZ7dNk/652462ddf0a8c6aac49692ca-Psychological-first-aid.webp"
+    }
   ]
+
+
 
 
 }

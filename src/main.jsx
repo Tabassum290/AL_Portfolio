@@ -9,6 +9,8 @@ import Home from './Components/Home.jsx';
 import ErrorPage from './Components/ErrorPage';
 import ServiceDetails from './Components/ServiceDetails.jsx';
 import "./i18n.js";
+import TrainingDetails from './Components/TrainingDetails.jsx';
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -19,8 +21,14 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/service/:id",  // <-- dynamic service route
+        path: "/service/:id",
         element: <ServiceDetails />,
+      },
+
+      // Single training detail page
+      {
+        path: "/trainings/:id", 
+        element: <TrainingDetails />,
       },
     ],
   },

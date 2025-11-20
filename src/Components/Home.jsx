@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Navbar from "./Navbar";
 import Service from "./Service";
 import React from "react";
+import Trainings from "./Trainings";
 const Home = () => {
     return (
         <div >
@@ -13,6 +14,7 @@ const Home = () => {
                <Banner/>
            <About/>
             <Service/>
+            <Trainings/>
             <Education/>
          </main>
          <Footer/>
